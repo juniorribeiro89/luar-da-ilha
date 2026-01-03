@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arraiá do Nordeste - Grupo de Quadrilha Junina</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="galeria.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Cabeçalho Junino -->
+    <header class="header-junino">
+        <div class="bandeirinhas">
+            <div class="bandeira vermelho"></div>
+            <div class="bandeira laranja"></div>
+            <div class="bandeira amarelo"></div>
+            <div class="bandeira bege"></div>
+            <div class="bandeira vermelho"></div>
+            <div class="bandeira laranja"></div>
+            <div class="bandeira amarelo"></div>
+            <div class="bandeira bege"></div>
+        </div>
+        
+        <nav class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-guitar logo-icon"></i>
+                <div class="logo-text">
+                    <h1>Arraiá do Nordeste</h1>
+                    <p>Quadrilha Tradicional desde 2009</p>
+                </div>
+            </div>
+            
+            <ul class="nav-menu">
+                <li><a href="#inicio" class="nav-link"><i class="fas fa-home"></i> Início</a></li>
+                <li><a href="#sobre" class="nav-link"><i class="fas fa-info-circle"></i> Sobre</a></li>
+                <li><a href="#galeria" class="nav-link"><i class="fas fa-camera"></i> Galeria</a></li>
+                <li><a href="#agenda" class="nav-link"><i class="fas fa-calendar-alt"></i> Agenda</a></li>
+                <li><a href="#informativos" class="nav-link"><i class="fas fa-bullhorn"></i> Informativos</a></li>
+                <li><a href="#contato" class="nav-link"><i class="fas fa-envelope"></i> Contato</a></li>
+            </ul>
+            
+            <button class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Banner Principal -->
+    <section id="inicio" class="hero-section">
+        <div class="hero-overlay">
+            <div class="hero-content">
+                <h2 class="hero-title">Viva a Tradição Nordestina!</h2>
+                <p class="hero-subtitle">15 anos espalhando a alegria das quadrilhas juninas</p>
+                <div class="hero-icons">
+                    <i class="fas fa-music"></i>
+                    <i class="fas fa-drum"></i>
+                    <i class="fas fa-guitar"></i>
+                    <i class="fas fa-fire"></i>
+                </div>
+                <a href="#agenda" class="hero-btn">Ver Próximas Apresentações</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="sobre" class="sobre-section">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-star"></i> Nossa História</h2>
+            <div class="sobre-content">
+                <div class="sobre-text">
+                    <p>O <strong>Arraiá do Nordeste</strong> nasceu em 2009 com o objetivo de preservar e difundir a cultura das quadrilhas juninas tradicionais. Com mais de 50 integrantes, entre dançarinos, músicos e apoio, somos referência em autenticidade e alegria.</p>
+                    
+                    <div class="sobre-detalhes">
+                        <div class="detalhe-item">
+                            <i class="fas fa-users"></i>
+                            <h4>50+ Integrantes</h4>
+                            <p>Dançarinos e músicos</p>
+                        </div>
+                        <div class="detalhe-item">
+                            <i class="fas fa-trophy"></i>
+                            <h4>15 Anos</h4>
+                            <p>De tradição e alegria</p>
+                        </div>
+                        <div class="detalhe-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <h4>Nordeste</h4>
+                            <p>Levando nossa cultura</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sobre-imagem">
+                    <img src="https://images.unsplash.com/photo-1596900779744-2bdc4a89d54e?w=600&auto=format&fit=crop" alt="Nossa quadrilha">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Galeria (Resumo) -->
+    <section id="galeria" class="galeria-resumo">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-images"></i> Nossa Galeria</h2>
+            <p class="section-subtitle">Clique para ver álbuns completos com 10 fotos cada</p>
+            
+            <div class="albuns-grid">
+                <!-- Álbum 1 -->
+                <a href="galeria.html?album=apresentacoes2023" class="album-card">
+                    <div class="album-cover">
+                        <img src="https://images.unsplash.com/photo-1596900779744-2bdc4a89d54e?w-400&auto=format&fit=crop" alt="Apresentações 2023">
+                        <div class="album-overlay">
+                            <span class="foto-count">10 fotos</span>
+                            <i class="fas fa-expand"></i>
+                        </div>
+                    </div>
+                    <div class="album-info">
+                        <h3>Apresentações 2023</h3>
+                        <p>Melhores momentos dos festejos</p>
+                        <div class="album-stats">
+                            <span><i class="far fa-calendar"></i> Jun/2023</span>
+                            <span><i class="far fa-eye"></i> 245</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Álbum 2 -->
+                <a href="galeria.html?album=ensaios2024" class="album-card">
+                    <div class="album-cover">
+                        <img src="https://images.unsplash.com/photo-1596803244663-4d80d08ef80e?w=400&auto=format&fit=crop" alt="Ensaios 2024">
+                        <div class="album-overlay">
+                            <span class="foto-count">10 fotos</span>
+                            <i class="fas fa-expand"></i>
+                        </div>
+                    </div>
+                    <div class="album-info">
+                        <h3>Ensaios 2024</h3>
+                        <p>Preparação para a temporada</p>
+                        <div class="album-stats">
+                            <span><i class="far fa-calendar"></i> Mar-Abr/2024</span>
+                            <span><i class="far fa-eye"></i> 189</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Álbum 3 -->
+                <a href="galeria.html?album=trajestipicos" class="album-card">
+                    <div class="album-cover">
+                        <img src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce?w=400&auto=format&fit=crop" alt="Trajes Típicos">
+                        <div class="album-overlay">
+                            <span class="foto-count">10 fotos</span>
+                            <i class="fas fa-expand"></i>
+                        </div>
+                    </div>
+                    <div class="album-info">
+                        <h3>Trajes Tradicionais</h3>
+                        <p>Nossos figurinos coloridos</p>
+                        <div class="album-stats">
+                            <span><i class="far fa-calendar"></i> 2023-2024</span>
+                            <span><i class="far fa-eye"></i> 312</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Álbum 4 -->
+                <a href="galeria.html?album=saojoao2023" class="album-card">
+                    <div class="album-cover">
+                        <img src="https://images.unsplash.com/photo-1547825407-12d434919a71?w=400&auto=format&fit=crop" alt="São João 2023">
+                        <div class="album-overlay">
+                            <span class="foto-count">10 fotos</span>
+                            <i class="fas fa-expand"></i>
+                        </div>
+                    </div>
+                    <div class="album-info">
+                        <h3>São João 2023</h3>
+                        <p>Noite especial de festa</p>
+                        <div class="album-stats">
+                            <span><i class="far fa-calendar"></i> Jun/2023</span>
+                            <span><i class="far fa-eye"></i> 278</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="galeria-videos">
+                <h3><i class="fas fa-video"></i> Vídeos em Destaque</h3>
+                <div class="videos-grid">
+                    <div class="video-item">
+                        <div class="video-thumb">
+                            <i class="fas fa-play"></i>
+                            <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=400&auto=format&fit=crop" alt="Vídeo 1">
+                        </div>
+                        <h4>Documentário Completo 2023</h4>
+                        <p>5min 23seg • 1.2k views</p>
+                    </div>
+                    <div class="video-item">
+                        <div class="video-thumb">
+                            <i class="fas fa-play"></i>
+                            <img src="https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=400&auto=format&fit=crop" alt="Vídeo 2">
+                        </div>
+                        <h4>Making Of - Ensaios</h4>
+                        <p>3min 45seg • 876 views</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Agenda -->
+    <section id="agenda" class="agenda-section">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-calendar-alt"></i> Agenda 2024</h2>
+            
+            <div class="agenda-container">
+                <div class="agenda-calendario">
+                    <div class="mes-navegacao">
+                        <button class="nav-mes"><i class="fas fa-chevron-left"></i></button>
+                        <h3>MAIO 2024</h3>
+                        <button class="nav-mes"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                    
+                    <div class="eventos-lista">
+                        <!-- Evento 1 -->
+                        <div class="evento-card">
+                            <div class="evento-data">
+                                <span class="dia">15</span>
+                                <span class="mes">MAI</span>
+                            </div>
+                            <div class="evento-info">
+                                <h4>Ensaio Técnico</h4>
+                                <p><i class="fas fa-map-marker-alt"></i> Quadra da Escola Municipal</p>
+                                <p><i class="fas fa-clock"></i> 19:00 - 22:00</p>
+                                <span class="evento-tag ensaio">Ensaio</span>
+                            </div>
+                        </div>
+
+                        <!-- Evento 2 -->
+                        <div class="evento-card">
+                            <div class="evento-data">
+                                <span class="dia">22</span>
+                                <span class="mes">MAI</span>
+                            </div>
+                            <div class="evento-info">
+                                <h4>Ensaio Geral com Figurino</h4>
+                                <p><i class="fas fa-map-marker-alt"></i> Centro Comunitário</p>
+                                <p><i class="fas fa-clock"></i> 18:30 - 23:00</p>
+                                <span class="evento-tag ensaio">Ensaio</span>
+                            </div>
+                        </div>
+
+                        <!-- Evento 3 -->
+                        <div class="evento-card">
+                            <div class="evento-data">
+                                <span class="dia">13</span>
+                                <span class="mes">JUN</span>
+                            </div>
+                            <div class="evento-info">
+                                <h4>Festa Junina do Bairro</h4>
+                                <p><i class="fas fa-map-marker-alt"></i> Praça Central</p>
+                                <p><i class="fas fa-clock"></i> 20:00 - 22:00</p>
+                                <span class="evento-tag apresentacao">Apresentação</span>
+                            </div>
+                        </div>
+
+                        <!-- Evento 4 -->
+                        <div class="evento-card">
+                            <div class="evento-data">
+                                <span class="dia">23</span>
+                                <span class="mes">JUN</span>
+                            </div>
+                            <div class="evento-info">
+                                <h4>Noite de São João</h4>
+                                <p><i class="fas fa-map-marker-alt"></i> Parque Municipal</p>
+                                <p><i class="fas fa-clock"></i> 21:00 - 23:30</p>
+                                <span class="evento-tag apresentacao">Apresentação</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="agenda-info">
+                    <h3><i class="fas fa-info-circle"></i> Informações Importantes</h3>
+                    <div class="info-box">
+                        <h4><i class="fas fa-users"></i> Para Integrantes:</h4>
+                        <ul>
+                            <li>Chegar 30min antes do horário</li>
+                            <li>Trazer água e lanche</li>
+                            <li>Uniforme completo</li>
+                            <li>Confirmar presença</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="info-box">
+                        <h4><i class="fas fa-map-signs"></i> Locais dos Ensaios:</h4>
+                        <ul>
+                            <li>Seg/Qua: Quadra Escola</li>
+                            <li>Sábados: Centro Comunitário</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Informativos -->
+    <section id="informativos" class="informativos-section">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-bullhorn"></i> Informativos</h2>
+            
+            <div class="informativos-grid">
+                <!-- Informativo 1 -->
+                <div class="informativo-card">
+                    <div class="card-icon">
+                        <i class="fas fa-ticket-alt"></i>
+                    </div>
+                    <h3>Ingressos e Entrada</h3>
+                    <ul>
+                        <li>Entrada gratuita em todas apresentações</li>
+                        <li>Vagas limitadas em áreas cobertas</li>
+                        <li>Chegar com antecedência</li>
+                        <li>Crianças acompanhadas</li>
+                    </ul>
+                </div>
+
+                <!-- Informativo 2 -->
+                <div class="informativo-card">
+                    <div class="card-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3>Estrutura do Evento</h3>
+                    <ul>
+                        <li>Barracas de comida típica</li>
+                        <li>Área para crianças</li>
+                        <li>Banheiros químicos</li>
+                        <li>Estacionamento próximo</li>
+                    </ul>
+                </div>
+
+                <!-- Informativo 3 -->
+                <div class="informativo-card">
+                    <div class="card-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Doações e Apoio</h3>
+                    <ul>
+                        <li>Aceitamos doações</li>
+                        <li>Venda de camisetas</li>
+                        <li>Patrocínios para figurinos</li>
+                        <li>Apoie nossa cultura!</li>
+                    </ul>
+                    <a href="#contato" class="btn-apoio">Quero Apoiar</a>
+                </div>
+
+                <!-- Informativo 4 -->
+                <div class="informativo-card">
+                    <div class="card-icon">
+                        <i class="fas fa-question-circle"></i>
+                    </div>
+                    <h3>Perguntas Frequentes</h3>
+                    <div class="faq-item">
+                        <h4>Duração da apresentação?</h4>
+                        <p>Aproximadamente 40 minutos.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>Chove, é cancelado?</h4>
+                        <p>Não, temos locais alternativos.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>Posso tirar fotos?</h4>
+                        <p>Sim, sem flash profissional.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato" class="contato-section">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-envelope"></i> Entre em Contato</h2>
+            
+            <div class="contato-container">
+                <div class="contato-info">
+                    <h3><i class="fas fa-map-marker-alt"></i> Onde Estamos</h3>
+                    <p><strong>Sede:</strong> Rua do Forró, 123 - Centro</p>
+                    <p><strong>Cidade:</strong> Caruaru - PE</p>
+                    
+                    <h3><i class="fas fa-phone"></i> Contatos</h3>
+                    <p><strong>Coordenador João:</strong> (81) 99999-8888</p>
+                    <p><strong>Coreógrafa Maria:</strong> (81) 98888-7777</p>
+                    
+                    <div class="redes-sociais">
+                        <h3><i class="fas fa-share-alt"></i> Siga-nos</h3>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contato-form">
+                    <h3>Envie sua mensagem</h3>
+                    <input type="text" placeholder="Seu nome" required>
+                    <input type="email" placeholder="Seu e-mail" required>
+                    <input type="tel" placeholder="Seu telefone">
+                    <select required>
+                        <option value="">Assunto da mensagem</option>
+                        <option>Quero participar do grupo</option>
+                        <option>Convite para apresentação</option>
+                        <option>Doação/Patrocínio</option>
+                        <option>Outro assunto</option>
+                    </select>
+                    <textarea placeholder="Sua mensagem..." rows="5" required></textarea>
+                    <button type="submit" class="btn-enviar">
+                        <i class="fas fa-paper-plane"></i> Enviar Mensagem
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="footer-junino">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <i class="fas fa-guitar"></i>
+                        <h3>Arraiá do Nordeste</h3>
+                    </div>
+                    <p>Preservando a cultura junina desde 2009</p>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Links Rápidos</h4>
+                    <a href="#inicio">Início</a>
+                    <a href="#galeria">Galeria</a>
+                    <a href="#agenda">Agenda</a>
+                    <a href="#informativos">Informativos</a>
+                    <a href="#contato">Contato</a>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Horários de Ensaio</h4>
+                    <p>Segunda e Quarta: 19h-22h</p>
+                    <p>Sábado: 14h-18h</p>
+                    <p>Domingo: Ensaio especial</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Arraiá do Nordeste - Grupo de Quadrilha Junina. Todos os direitos reservados.</p>
+                <p class="feito-com">Feito com <i class="fas fa-heart"></i> para São João</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>x
